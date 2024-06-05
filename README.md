@@ -1,1 +1,1 @@
-Proyecto Backend MVC CRUD con NodeJs Sequielize
+Proyecto Backend MVC CRUD con NodeJs Sequelize
