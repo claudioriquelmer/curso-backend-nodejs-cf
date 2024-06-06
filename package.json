@@ -16,6 +16,8 @@
     "method-override": "^3.0.0",
     "pug": "^3.0.3",
     "sequelize": "^6.37.3",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
     "sqlite3": "^5.1.7"
   }
 }
