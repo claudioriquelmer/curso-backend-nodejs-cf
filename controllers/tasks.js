@@ -27,7 +27,8 @@ module.exports = {
   },
   create: function(req,res){
     Task.create( {
-      description: req.body.description
+      description: req.body.description,
+      userId: req.user.id
     }).then(result=> {
       res.json(result);
     }).catch(err=> {

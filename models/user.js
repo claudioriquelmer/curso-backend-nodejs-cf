@@ -41,7 +41,12 @@ module.exports = (sequelize, DataTypes) => {
     });
   };
 
-  User.associate = function (models) {};
+  User.associate = function (models) {
+    User.hasMany(models.Task, {
+      as: 'tasks'
+    });
+  };
+
   User.beforeCreate(function (user, options) {
     return new Promise((res, rej) => {
       if (user.password) {
